@@ -141,17 +141,47 @@ class Results:
                 place += 1
             self.competitors[name].addScore(scoreObj)
 
+    def inputRace(self):
+        i = 1
+        arr = []
+        raceObj = {
+            'finishes': [],
+            'OCS': [],
+            'DSQ': []
+            }
+        while i <= len(self.competitors):
+            name = input(str(i) + '. ')
+            if name in self.competitors:
+                raceObj['finishes'].append(name)
+            else:
+                print(name + ' not found, try again')
+                continue
+            i += 1
+        asks = ['OCS','DSQ']
+        for ask in asks:
+            while True:
+                name = input(ask + '. ')
+                if name == 'done':
+                    break
+                if name in self.competitors:
+                    raceObj['OCS'].append(name)a
+                else:
+                    print(name + ' not found, try again')
+        self.addRace(raceObj)
+
 R = Results({'race': ['Kyle','Marco','Emi','Molly']})
-R.addRace({
-    'finishes': ['Kyle','Marco','Emi','Molly'],
-    'OCS': ['Emi'],
-    'DSQ': ['Molly']
-    })
-R.addRace({
-    'finishes': ['Marco','Molly','Kyle','Emi'],
-    'OCS': [],
-    'DSQ': []
-    })
+##R.addRace({
+##    'finishes': ['Kyle','Marco','Emi','Molly'],
+##    'OCS': ['Emi'],
+##    'DSQ': ['Molly']
+##    })
+##R.addRace({
+##    'finishes': ['Marco','Molly','Kyle','Emi'],
+##    'OCS': [],
+##    'DSQ': []
+##    })
+
+
 ##R = Results({'race': ['Kyle','Emi']})
 ##R.addRace({
 ##    'finishes': ['Kyle','Emi'],
