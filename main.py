@@ -164,12 +164,14 @@ class Results:
                 if name == 'done':
                     break
                 if name in self.competitors:
-                    raceObj['OCS'].append(name)a
+                    raceObj['OCS'].append(name)
                 else:
                     print(name + ' not found, try again')
         self.addRace(raceObj)
 
 R = Results({'race': ['Kyle','Marco','Emi','Molly']})
+R.inputRace()
+
 ##R.addRace({
 ##    'finishes': ['Kyle','Marco','Emi','Molly'],
 ##    'OCS': ['Emi'],
