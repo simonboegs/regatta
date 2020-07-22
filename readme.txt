@@ -1,27 +1,11 @@
-Method Ideas
-- create race
-- calculate total
-- show scores for person
-- show scores for race
-- edit scores for race
-- edit scores for person
-- get scores given a specific fleet, sorted (overall, race, intro)
-- export to spreadsheet?
+Regatta Scoring Software by Simon Boeger
 
-Have to figure out how to store everything.
+Sail numbers as they finish are inputted into the 'results.txt' file in a specific format. Standings for overall and each fleet are then calculated based on the US Racing Rules of Sailing, including throwouts (according to the sailing instructions) and tiebreakers.
 
-Each race is a dictionary. The keys to the dictionary are the names. The value for each key is their score for the race.
+A list of sailor names, sail numbers, and coaches are provided in 'sailorList.txt'.
+An example for how 'results.txt' should be constructed is 'resultsExample.txt'.
+'script.py' is the python code that calculates the standings from the above text files.
 
-Totals are a dictionary. Each key is a person and each value is the total.
+Reconstructed from a new paradime of input through text files instead of direct input to the script, which should make it more user friendly.
 
-or...
-
-Whole thing is dictionary. Keys are people. Key is assigned to an object with array (race results) and a number (total points)
-
-We only keep track of overall results. When we need a specific fleet, we just go through sorted and only display those people.
-
-Todo
-- tie breakers
-- inputting of race results
-- hook up json file
-- fleet specific results
+Software will be used to score the upcoming Encinal Yacht Club opti regatta simulation in the Oakland estuary July 22-23, as well as future in-house events.
