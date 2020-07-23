@@ -1,6 +1,0 @@
-     NAME           FLEET          SAIL NUMBER    R1        R2        R3        R4        R5        R6        TOTAL     
-1    Christine      INTERMEDIATE   9705           (2)       1         1         1         1         1         5         
-2    Emi            RACE           20568          (OCS-6)   2         2         2         2         2         10        
-3    Marco.P        RACE           12160          (3)       3         3         3         3         3         15        
-4    Zach           INTERMEDIATE   18340          1         (DSQ-6)   DSQ-6     DSQ-6     DSQ-6     DSQ-6     25        
-5    Kyle           RACE           20808          4         (OCS-6)   OCS-6     OCS-6     OCS-6     OCS-6     28 

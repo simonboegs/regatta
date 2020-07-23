@@ -1,0 +1,20 @@
+     NAME           FLEET          SAIL NUMBER    R1        R2        R3        R4        TOTAL     
+1    Nikita         INTERMEDIATE   20563          10        3         12        13        38        
+2    Alise          INTERMEDIATE   18335G         21        8         5         10        44        
+3    Alex_R         INTERMEDIATE   20566          11        12        10        11        44        
+4    Alex_A         INTERMEDIATE   108            15        13        15        12        55        
+5    Fiona          INTERMEDIATE   465            14        14        13        20        61        
+6    Roscoe         INTERMEDIATE   44             13        20        16        16        65        
+7    Pepe           INTERMEDIATE   20568J         22        17        20        14        73        
+8    Evie           INTERMEDIATE   51             6         18        21        DSQ-29    74        
+9    Marco_A        INTERMEDIATE   9706           16        15        14        DSQ-29    74        
+10   Malcolm        INTERMEDIATE   50             18        21        17        22        78        
+11   Christine      INTERMEDIATE   9705           12        16        22        DSQ-29    79        
+12   Adiline        INTERMEDIATE   39             23        19        19        18        79        
+13   Holly          INTERMEDIATE   40             17        22        26        19        84        
+14   Devin          INTERMEDIATE   18335B         25        25        18        17        85        
+15   Zach           INTERMEDIATE   18340          19        DSQ-29    24        15        87        
+16   Gabrial        INTERMEDIATE   42             27        23        23        23        96        
+17   Skylar         INTERMEDIATE   20562          24        24        25        DSQ-29    102       
+18   Nico           INTERMEDIATE   20561J         26        DSQ-29    DSQ-29    21        105       
+19   Race           INTERMEDIATE   18341          28        DSQ-29    DSQ-29    DSQ-29    115  
